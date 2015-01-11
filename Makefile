@@ -9,7 +9,7 @@ include asmopt.mak
 #
 
 BASEDIR = .
-BINDIR = bin
+BINDIR = .
 BUILDDIR = build
 BUILDDIRUTIL = build_util
 INCLUDE = $(addprefix -I$(BASEDIR)/,$(appdir)/extensions $(appdir)/include framework/include framework/driver framework/driver/$(ARCH))

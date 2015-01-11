@@ -1,3 +1,11 @@
+# ABOUT BINDIGNS #
+
+This is Go bindings for [BLAKE2b-opt](https://github.com/floodyberry/blake2b-opt) library.
+
+You need to build the .lib file, and keep in your project directory in order to succesfully link against it.
+
+Not tested, and probably breaks when input is not word aligned.
+
 # ABOUT #
 
 This is a portable, performant implementation of [BLAKE2b](https://blake2.net/) using optimized block compression functions. The compression functions are tree/parallel mode compatible, although only serial mode (singled threaded, the common use-case) is currently implemented.
